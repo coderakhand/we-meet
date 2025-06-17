@@ -1,0 +1,14 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc && DEBUG=mediasoup:* node dist/index.js"
+  },
+  "dependencies": {
+    "@types/ws": "^8.18.1",
+    "mediasoup": "3",
+    "ws": "^8.18.2"
+  }
+}
